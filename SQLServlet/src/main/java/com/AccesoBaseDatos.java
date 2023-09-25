@@ -11,9 +11,9 @@ public class AccesoBaseDatos {
 public List<String> nombres = new ArrayList<String>();
 	
 	public List<String> devolverNombres(){
-		String url = "jdbc:mysql://localhost:3306/App";
+		String url = "jdbc:mysql://localhost:3306/app";
         String usuario = "root";
-        String contraseña = "123";
+        String contraseña = "1234";
         
         try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
